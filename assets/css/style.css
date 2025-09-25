@@ -1,0 +1,297 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #111;
+  background: #f5f5f5 url("../img/sfondo.png") center/cover fixed no-repeat;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #0b59c9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background: #eee;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding-top: 14px;
+}
+
+.header-card {
+  width: 360px;
+  margin: 0 auto 24px;
+  background: linear-gradient(#0089a3, #005766);
+  color: #fff;
+  padding: 20px 18px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+}
+
+.brand {
+  margin-bottom: 14px;
+}
+
+.logo {
+  width: 110px;
+  margin: 0 auto 6px;
+}
+
+.brand-text {
+  text-align: center;
+}
+
+.epicode {
+  font-size: 26px;
+  font-weight: 700;
+  display: block;
+}
+
+.school {
+  font-size: 22px;
+  font-weight: 400;
+  display: block;
+}
+
+.blog-claim {
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.9;
+}
+
+.menu a {
+  color: #fff;
+}
+
+/* ARTICOLO PRINCIPALE */
+.post {
+  width: 360px;
+  margin: 0 auto 26px;
+  background: #fff;
+  padding: 18px 16px 22px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+  border-left: 2px solid #cfcfcf;
+}
+
+.post-title {
+  font-size: 22px;
+  margin: 0 0 14px;
+  line-height: 1.25;
+}
+
+.meta {
+  font-size: 11px;
+  color: #666;
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.post p,
+.post ul,
+.post ol {
+  font-size: 13px;
+  margin: 0 0 14px;
+}
+
+.post ul,
+.post ol {
+  padding-left: 18px;
+}
+
+.post li {
+  margin-bottom: 5px;
+}
+
+.tab-title {
+  font-size: 14px;
+  text-align: center;
+  margin: 4px 0 12px;
+}
+
+/* TABELLA DATI */
+.tab {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin: 0 0 14px;
+}
+
+.tab th {
+  background: #1f4f7a;
+  color: #fff;
+  padding: 6px 4px;
+  text-align: left;
+}
+
+.tab td {
+  border: 1px solid #d6d6d6;
+  padding: 6px 4px;
+}
+
+.tab tr:nth-child(even) {
+  background: #efefef;
+}
+
+.tab .r-evid {
+  background: #dedede;
+}
+
+.sep {
+  height: 1px;
+  background: #1f4f7a;
+  border: 0;
+  margin: 18px 0 18px;
+}
+
+/* VIDEO EMBED */
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  background: #000;
+  margin: 0 0 16px;
+  border-radius: 6px;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* SEZIONE NEWSLETTER (ora dentro .post) */
+.newsletter {
+  background: #e9e9e9;
+  padding: 16px 14px 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+  margin: 4px 0 24px;
+}
+
+.newsletter h2 {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.newsletter p {
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.newsletter input {
+  flex: 1 1 auto;
+  padding: 8px 10px;
+  font-size: 12px;
+  border: 1px solid #bdbdbd;
+}
+
+.newsletter button {
+  background: #1f4f7a;
+  color: #fff;
+  border: 0;
+  padding: 8px 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  opacity: .9;
+}
+
+/* ARTICOLI CORRELATI  */
+.related {
+  margin: 0 0 8px;
+}
+
+.related h2 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.rel-card {
+  background: #e9e9e9;
+  border: 1px solid #cfcfcf;
+  padding: 12px 12px 10px;
+  font-size: 11px;
+  margin: 0 0 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+}
+
+.rel-title {
+  font-weight: 600;
+  margin: 0 0 6px;
+  font-size: 12px;
+}
+
+.rel-card i {
+  color: #1f4f7a;
+  margin-right: 4px;
+}
+
+/* FOOTER */
+.footer {
+  width: 360px;
+  margin: 0 auto 30px;
+  background: #004e60;
+  color: #fff;
+  padding: 18px 14px 24px;
+  font-size: 11px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+}
+
+.footer a {
+  color: #ff2d92;
+}
+
+.footer p {
+  margin: 0 0 10px;
+}
+
+.footer p:last-child {
+  margin: 0;
+}
